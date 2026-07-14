@@ -9,4 +9,4 @@ class Task:
 @dataclass
 class Node:
     id: int
-    tasks: list
+    tasks: list[Task]
