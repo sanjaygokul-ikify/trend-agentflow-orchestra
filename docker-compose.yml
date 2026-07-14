@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  main:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - AGENTFLOW_MODE=dev
+    volumes:
+      - .:/app
+    command: uvicorn agentflow.server:app --host 0.0.0.0 --port 80
