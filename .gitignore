@@ -1,0 +1,1 @@
+/__pycache__\n*.pyc\n.env\nbuild/\ntmp/\n*.db\n*.sqlite3\n.env.local\n*.log\n*.pid\n*.swp\ninstance/\n/.vscode/*.sock\n/.mypy_cache\n/.pytest_cache\n/coverage/\n/.DS_Store\n__pycache__/\n*.egg-info/\ndist/\nvenv/\ndevelopment/\n*.pybuild\nnox*\n.coverage*\nhtmlcov/\n*.sqlite\n*.sqlite3
